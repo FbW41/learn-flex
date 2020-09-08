@@ -1,0 +1,49 @@
+.box {
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+}
+
+.box-1 {
+  background-color: #f94144;
+}
+.box-2 {
+  background-color: #f3722c;
+}
+.box-3 {
+  background-color: #f8961e;
+}
+.box-4 {
+  background-color: #f9c74f;
+}
+.box-5 {
+  background-color: #90be6d;
+}
+
+.box-6 {
+  background-color: #43aa8b;
+}
+
+.box-7 {
+  background-color: #577590;
+}
+.box-8 {
+  background-color: rebeccapurple;
+}
+
+/* Our Flex Container */
+.container {
+  border: 8px solid black;
+  height: 80vh;
+
+  display: flex;
+  flex-direction: row;
+
+  /*Space between items on Main Axis */
+  justify-content: flex-start;
+
+  /*Space between/around items on Cross Axis */
+  align-items: flex-start;
+}
